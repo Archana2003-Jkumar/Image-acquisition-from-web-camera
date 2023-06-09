@@ -67,7 +67,7 @@ while True :
         image[hgt//2, :width//2 ]=smallfrm
         image[:hgt//2, :width//2 ]=smallfrm
         image[:hgt//2, :width//2 ]=smallfrm
-         cv2.imshow('mypicture',frame)
+         cv2.imshow('mypicture',image)
              if cv2.waitKey(1)==ord('n'):
                 break
 vid.release()
